@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.header h1 {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+#container {
+    width: 700px;
+    position: relative;
+    border: 5px solid #fff;
+    border-radius: 7px;
+}
+
+#prev_btn {
+    position: absolute;
+    left: 0;
+    top: 40%;
+}
+
+#play_btn,
+#pause_btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#play_btn,
+#pause_btn,
+#prev_btn,
+#next_btn {
+    border: none;
+    background-color: transparent;
+}
+
+#play_btn i:hover,
+#pause_btn i:hover,
+#prev_btn i:hover,
+#next_btn i:hover {
+    background-color: #4b4b4b;
+    opacity: 1;
+}
+
+#play_btn i,
+#pause_btn i,
+#prev_btn i,
+#next_btn i {
+    color: #ffffff;
+    padding: .5rem;
+    background-color: #000000;
+    opacity: .5;
+
+}
+
+#next_btn {
+    position: absolute;
+    right: 0;
+    top: 40%
+}
